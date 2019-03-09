@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat, Helvetica, sans-serif;
 }
+
 
 body {
   color: #444;
-  font-family: Helvetica, sans-serif;
   line-height: 1.5;
+  background: #f5f6fa;
 }
 
 a {
   color: #333;
   text-decoration: none;
+}
+
+.container {
+  margin: 3rem 6rem;
+  border: 8px solid #718093;
+  
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #e1b12c;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #d6a727;
 }
