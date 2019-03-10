@@ -28,7 +28,9 @@ export class TodoItem extends Component {
 
 // PropTypes
 TodoItem.propTypes = {
-  todo: PropTypes.object.isRequired
+  todo: PropTypes.object.isRequired,
+  markComplete: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
 }
 
 const checkboxStyle = {
@@ -39,7 +41,7 @@ const btnStyle = {
   background: '#e84118',
   color: '#fff',
   border: 'none',
-  padding: '5px 9px',
+  padding: '4.5px 9px',
   borderRadius: '50%',
   cursor: 'pointer',
   float: 'right'
